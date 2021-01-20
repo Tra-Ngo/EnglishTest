@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">EnglishTest</string>
+    <string name="title">Trắc nghiệm Tiếng Anh</string>
+    <string name="login">Đăng nhập</string>
+    <string name="hint1">Nhập tên đăng nhập</string>
+    <string name="hint2">Nhập mật khẩu</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="exit">Thoát</string>
+    <string name="textdangnhapthanhcong">Đăng nhập thành công</string>
+    <string name="textdangnhapthatbai">Tài khoản hoặc mật khẩu không chính xác</string>
+    <string name="start">Bắt đầu</string>
+    <string name="tutorial">Hướng dẫn</string>
+    <string name="info">Thông tin</string>
+    <string name="close">Đóng</string>
+    <string name="time">Thời gian:</string>
+    <string name="point">Điểm:</string>
+    <string name="again">Làm lại</string>
+    <string name="low">Điểm của bạn tương đối kém. Bạn nên học thêm!</string>
+    <string name="mid">Khá tốt! Học thêm để đạt điểm tuyệt đối nhé!</string>
+    <string name="high">Wow, xuất sắc. Hãy giữ vững phong độ nhé!</string>
+    <string name="titlemake">Bài tập lớn</string>
+    <string name="namemake">Phát triển ứng dụng cho thiết bị di động</string>
+    <string name="infomake">Ứng dụng được phát triển bởi</string>
+    <string name="infosv">Sinh viên: Ngô Xuân Trà</string>
+    <string name="infomsv">MSV: 1851171902</string>
+    <string name="infoclass">Lớp: 60PM2</string>
+    <string name="registration">Đăng ký</string>
+    <string name="hint3">Nhập họ tên</string>
+    <string name="highscore">Điểm cao</string>
+    <string name="highscore1">Điểm cao 1:</string>
+    <string name="highscore2">Điểm cao 2:</string>
+    <string name="highscore3">Điểm cao 3:</string>
+    <string name="highscore4">Điểm cao 4:</string>
+    <string name="highscore5">Điểm cao 5:</string>
+</resources>

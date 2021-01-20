@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info">
+
+    <TextView
+        android:id="@+id/textViewTitleInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/titlemake"
+        android:textSize="@dimen/sp55"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp75"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewNameInfo"
+        android:layout_below="@id/textViewTitleInfo"
+        android:text="@string/namemake"
+        android:textSize="@dimen/sp25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewInfoMake"
+        android:layout_below="@id/textViewNameInfo"
+        android:text="@string/infomake"
+        android:textSize="@dimen/sp25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp60" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewInfoSV"
+        android:layout_below="@id/textViewInfoMake"
+        android:text="@string/infosv"
+        android:textSize="@dimen/sp25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp35" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewInfoMSV"
+        android:layout_below="@id/textViewInfoSV"
+        android:text="@string/infomsv"
+        android:textSize="@dimen/sp25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewInfoClass"
+        android:layout_below="@id/textViewInfoMSV"
+        android:text="@string/infoclass"
+        android:textSize="@dimen/sp25"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp20" />
+</RelativeLayout>

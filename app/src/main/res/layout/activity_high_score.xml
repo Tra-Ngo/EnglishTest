@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HighScore">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/highscore1"
+        android:textSize="@dimen/sp35"
+        android:id="@+id/textViewHighScore1"
+        android:layout_marginTop="@dimen/dp75"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/highscore2"
+        android:textSize="@dimen/sp35"
+        android:id="@+id/textViewHighScore2"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_below="@id/textViewHighScore1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/highscore3"
+        android:textSize="@dimen/sp35"
+        android:id="@+id/textViewHighScore3"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_below="@id/textViewHighScore2"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/highscore4"
+        android:textSize="@dimen/sp35"
+        android:id="@+id/textViewHighScore4"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_below="@id/textViewHighScore3"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/highscore5"
+        android:textSize="@dimen/sp35"
+        android:id="@+id/textViewHighScore5"
+        android:layout_marginTop="@dimen/dp30"
+        android:layout_below="@id/textViewHighScore4"/>
+
+</RelativeLayout>

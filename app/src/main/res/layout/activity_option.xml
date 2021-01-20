@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/c"
+    tools:context=".Option">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp38"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:id="@+id/textViewTitleOption"
+        android:layout_marginTop="@dimen/dp40"/>
+
+    <Button
+        android:layout_width="@dimen/dp255"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="@string/start"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp35"
+        android:layout_below="@id/textViewTitleOption"
+        android:layout_marginTop="@dimen/dp75"
+        android:id="@+id/buttonStart"/>
+
+    <Button
+        android:layout_width="@dimen/dp255"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="@string/tutorial"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp35"
+        android:layout_below="@id/buttonStart"
+        android:layout_marginTop="@dimen/dp40"
+        android:id="@+id/buttonTutorial"/>
+
+    <Button
+        android:layout_width="@dimen/dp255"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="@string/highscore"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp35"
+        android:layout_below="@id/buttonTutorial"
+        android:layout_marginTop="@dimen/dp40"
+        android:id="@+id/buttonHighScore"/>
+
+    <Button
+        android:layout_width="@dimen/dp255"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="@string/info"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp35"
+        android:layout_below="@id/buttonHighScore"
+        android:layout_marginTop="@dimen/dp40"
+        android:id="@+id/buttonInfo"/>
+
+    <Button
+        android:layout_width="@dimen/dp255"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:text="@string/exit"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sp35"
+        android:layout_below="@id/buttonInfo"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginBottom="@dimen/sp40"
+        android:id="@+id/buttonExitOption"/>
+
+</RelativeLayout>

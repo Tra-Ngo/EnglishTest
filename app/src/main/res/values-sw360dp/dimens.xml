@@ -1,0 +1,101 @@
+<resources>
+  <dimen name="dp70">
+    60.0dp
+  </dimen>
+  <dimen name="dp40">
+    34.29dp
+  </dimen>
+  <dimen name="dp30">
+    25.71dp
+  </dimen>
+  <dimen name="dp20">
+    17.14dp
+  </dimen>
+  <dimen name="dp100">
+    85.71dp
+  </dimen>
+  <dimen name="dp80">
+    68.57dp
+  </dimen>
+  <dimen name="dp185">
+    158.57dp
+  </dimen>
+  <dimen name="dp15">
+    12.86dp
+  </dimen>
+  <dimen name="dp50">
+    42.86dp
+  </dimen>
+  <dimen name="dp37">
+    31.71dp
+  </dimen>
+  <dimen name="dp35">
+    30.0dp
+  </dimen>
+  <dimen name="dp28">
+    24.0dp
+  </dimen>
+  <dimen name="dp23">
+    19.71dp
+  </dimen>
+  <dimen name="dp10">
+    8.57dp
+  </dimen>
+  <dimen name="dp75">
+    64.29dp
+  </dimen>
+  <dimen name="dp255">
+    218.57dp
+  </dimen>
+  <dimen name="dp5">
+    4.29dp
+  </dimen>
+  <dimen name="dp55">
+    47.14dp
+  </dimen>
+  <dimen name="dp25">
+    21.43dp
+  </dimen>
+  <dimen name="dp45">
+    38.57dp
+  </dimen>
+  <dimen name="dp60">
+    51.43dp
+  </dimen>
+  <dimen name="dp150">
+    128.57dp
+  </dimen>
+  <dimen name="sp20">
+    17.14sp
+  </dimen>
+  <dimen name="sp30">
+    25.71sp
+  </dimen>
+  <dimen name="sp25">
+    21.43sp
+  </dimen>
+  <dimen name="sp40">
+    34.29sp
+  </dimen>
+  <dimen name="sp50">
+    42.86sp
+  </dimen>
+  <dimen name="sp15">
+    12.86sp
+  </dimen>
+  <dimen name="sp45">
+    38.57sp
+  </dimen>
+  <dimen name="sp38">
+    32.57sp
+  </dimen>
+  <dimen name="sp55">
+    47.14sp
+  </dimen>
+  <dimen name="sp35">
+    30.0sp
+  </dimen>
+  <dimen name="sp26">
+    22.29sp
+  </dimen>
+</resources>

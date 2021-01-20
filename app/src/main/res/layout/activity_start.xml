@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Start"
+    android:background="@drawable/b">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_below="@id/textViewAsk"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/time"
+            android:textSize="@dimen/sp30"
+            android:textColor="#FFEB3B"
+            android:id="@+id/textViewTime"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/point"
+            android:textSize="@dimen/sp30"
+            android:textColor="#FFEB3B"
+            android:id="@+id/textViewPoint"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp185"
+        android:background="@drawable/custom_edittext"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginTop="@dimen/dp20"
+        android:textSize="@dimen/sp35"
+        android:id="@+id/textViewAsk"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp55"
+        android:layout_below="@+id/linearLayout"
+        android:background="@drawable/custom_edittext"
+        android:textSize="@dimen/sp30"
+        android:gravity="center_vertical"
+        android:id="@+id/textViewA"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp55"
+        android:layout_below="@+id/textViewA"
+        android:background="@drawable/custom_edittext"
+        android:textSize="@dimen/sp30"
+        android:gravity="center_vertical"
+        android:id="@+id/textViewB"
+        android:layout_marginTop="@dimen/dp25"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp55"
+        android:layout_below="@+id/textViewB"
+        android:background="@drawable/custom_edittext"
+        android:textSize="@dimen/sp30"
+        android:gravity="center_vertical"
+        android:id="@+id/textViewC"
+        android:layout_marginTop="@dimen/dp25"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp55"
+        android:layout_below="@+id/textViewC"
+        android:background="@drawable/custom_edittext"
+        android:textSize="@dimen/sp30"
+        android:gravity="center_vertical"
+        android:id="@+id/textViewD"
+        android:layout_marginTop="@dimen/dp25"
+        android:layout_marginLeft="@dimen/dp20"
+        android:layout_marginRight="@dimen/dp20"
+        android:layout_marginBottom="@dimen/dp20"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="@dimen/dp150"
+        android:layout_height="@dimen/dp150"
+        android:layout_centerInParent="true"
+        android:visibility="visible" />
+
+</RelativeLayout>

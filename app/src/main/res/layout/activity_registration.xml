@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/registration"
+        android:textSize="@dimen/sp50"
+        android:layout_marginTop="@dimen/dp75"
+        android:textColor="#000000"
+        android:id="@+id/textViewTitleR"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitleR"
+        android:layout_marginTop="@dimen/dp55"
+        android:layout_marginLeft="@dimen/dp25"
+        android:layout_marginRight="@dimen/dp25"
+        android:hint="@string/hint3"
+        android:id="@+id/editTextFullName"
+        android:textSize="@dimen/sp25"
+        android:background="@drawable/custom_edittext"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextFullName"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp25"
+        android:layout_marginRight="@dimen/dp25"
+        android:hint="@string/hint1"
+        android:id="@+id/editTextRegistration"
+        android:textSize="@dimen/sp25"
+        android:background="@drawable/custom_edittext"/>
+
+    <EditText
+        android:id="@+id/editTextPassR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRegistration"
+        android:layout_marginLeft="@dimen/dp25"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginRight="@dimen/dp25"
+        android:background="@drawable/custom_edittext"
+        android:hint="@string/hint2"
+        android:inputType="textPassword"
+        android:textSize="@dimen/sp25" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:layout_below="@id/editTextPassR"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonConfirmR"
+        android:background="@drawable/custom_button"/>
+
+</RelativeLayout>

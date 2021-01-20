@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:isScrollContainer="true">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"
+        android:textSize="@dimen/sp50"
+        android:layout_marginTop="@dimen/dp75"
+        android:textColor="#000000"
+        android:id="@+id/textViewTitle"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="@dimen/dp55"
+        android:layout_marginLeft="@dimen/dp25"
+        android:layout_marginRight="@dimen/dp25"
+        android:hint="@string/hint1"
+        android:id="@+id/editTextLogIn"
+        android:textSize="@dimen/sp25"
+        android:background="@drawable/custom_edittext"/>
+
+    <EditText
+        android:id="@+id/editTextPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextLogIn"
+        android:layout_marginLeft="@dimen/dp25"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginRight="@dimen/dp25"
+        android:background="@drawable/custom_edittext"
+        android:hint="@string/hint2"
+        android:inputType="textPassword"
+        android:textSize="@dimen/sp25" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirm"
+        android:layout_below="@id/editTextPass"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_marginLeft="@dimen/dp75"
+        android:id="@+id/buttonConfirm"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exit"
+        android:layout_below="@id/editTextPass"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_toRightOf="@id/buttonConfirm"
+        android:layout_marginLeft="@dimen/dp100"
+        android:layout_marginRight="@dimen/dp75"
+        android:id="@+id/buttonExit"
+        android:background="@drawable/custom_button"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registration"
+        android:layout_below="@id/buttonConfirm"
+        android:layout_marginTop="@dimen/dp40"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/buttonRegistration"
+        android:background="@drawable/custom_button"/>
+
+</RelativeLayout>
